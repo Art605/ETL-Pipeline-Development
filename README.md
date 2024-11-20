@@ -8,7 +8,7 @@ This project focuses on creating a fully automated ETL (Extract, Transform, Load
 - Google Cloud Data Fusion: Data integration tool for transforming and managing the ETL pipeline.
 - Apache Airflow (via Cloud Composer): Orchestrating the ETL pipeline to ensure the seamless movement and processing of data.
 - BigQuery: Cloud-based data warehouse used for storing and querying the transformed data.
-- Power BI: Data visualization tool used for presenting the employee data insights.
+- Power BI: Data visualisation tool used for presenting the employee data insights.
 
 **Project Objectives:**
 - Generate synthetic employee data using Python’s Faker library.
@@ -16,7 +16,7 @@ This project focuses on creating a fully automated ETL (Extract, Transform, Load
 - Transform and integrate data using Google Cloud Data Fusion for analytics-ready formats.
 - Orchestrate the ETL pipeline using Apache Airflow via Cloud Composer.
 - Load the transformed data into BigQuery for efficient querying.
-- Visualize key insights from the data using Power BI.
+- Visualise key insights from the data using Power BI.
 
 **Data Architecture:**<br>
 ![diagram-export-20-11-2024-08_42_47](https://github.com/user-attachments/assets/85664443-787f-49ce-8e99-84344c320390)
