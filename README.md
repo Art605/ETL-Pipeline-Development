@@ -1,6 +1,6 @@
 # ETL Pipeline Development using Employee Data
 **Project Overview:**<br>
-This project focuses on creating a fully automated ETL (Extract, Transform, Load) pipeline that processes fake employee data for analytical and visualization purposes. The entire pipeline is orchestrated using Google Cloud services, ensuring seamless data extraction, transformation, and loading into a cloud-based environment. Data is processed using a combination of Python scripting, cloud storage, data integration, and orchestration tools. The project culminates in interactive data visualizations using Power BI for real-time insights.
+This project focuses on creating a fully automated ETL (Extract, Transform, Load) pipeline that processes fake employee data for analytical and visualization purposes. The entire pipeline is orchestrated using Google Cloud services, ensuring seamless data extraction, transformation which includes masking and encoding of sensitive information, and loading into a cloud-based environment. Data is processed using a combination of Python scripting, cloud storage, data integration, and orchestration tools. The project culminates in interactive data visualisations using Power BI for real-time insights.
 
 **Technologies Used:**
 - Python: Used for scripting and data transformation with the Faker library to generate synthetic employee data.
