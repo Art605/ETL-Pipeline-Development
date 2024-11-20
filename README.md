@@ -1,27 +1,27 @@
 # ETL Pipeline Development using Employee Data
-**Project Overview:**
+**Project Overview:**<br>
 This project focuses on creating a fully automated ETL (Extract, Transform, Load) pipeline that processes fake employee data for analytical and visualization purposes. The entire pipeline is orchestrated using Google Cloud services, ensuring seamless data extraction, transformation, and loading into a cloud-based environment. Data is processed using a combination of Python scripting, cloud storage, data integration, and orchestration tools. The project culminates in interactive data visualizations using Power BI for real-time insights.
 
 **Technologies Used:**
-Python: Used for scripting and data transformation with the Faker library to generate synthetic employee data.
-Google Cloud Storage: Data storage for the raw and transformed datasets.
-Google Cloud Data Fusion: Data integration tool for transforming and managing the ETL pipeline.
-Apache Airflow (via Cloud Composer): Orchestrating the ETL pipeline to ensure the seamless movement and processing of data.
-BigQuery: Cloud-based data warehouse used for storing and querying the transformed data.
-Power BI: Data visualization tool used for presenting the employee data insights.
+- Python: Used for scripting and data transformation with the Faker library to generate synthetic employee data.
+- Google Cloud Storage: Data storage for the raw and transformed datasets.
+- Google Cloud Data Fusion: Data integration tool for transforming and managing the ETL pipeline.
+- Apache Airflow (via Cloud Composer): Orchestrating the ETL pipeline to ensure the seamless movement and processing of data.
+- BigQuery: Cloud-based data warehouse used for storing and querying the transformed data.
+- Power BI: Data visualization tool used for presenting the employee data insights.
 
 **Project Objectives:**
-Generate synthetic employee data using Python’s Faker library.
-Store the raw and processed data in Google Cloud Storage.
-Transform and integrate data using Google Cloud Data Fusion for analytics-ready formats.
-Orchestrate the ETL pipeline using Apache Airflow via Cloud Composer.
-Load the transformed data into BigQuery for efficient querying.
-Visualize key insights from the data using Power BI.
+- Generate synthetic employee data using Python’s Faker library.
+- Store the raw and processed data in Google Cloud Storage.
+- Transform and integrate data using Google Cloud Data Fusion for analytics-ready formats.
+- Orchestrate the ETL pipeline using Apache Airflow via Cloud Composer.
+- Load the transformed data into BigQuery for efficient querying.
+- Visualize key insights from the data using Power BI.
 
-**Data Architecture:**
+**Data Architecture:**<br>
 ![diagram-export-20-11-2024-08_42_47](https://github.com/user-attachments/assets/85664443-787f-49ce-8e99-84344c320390)
 
-**Data Flow and Process:**
+**Data Flow and Process:**<br>
 The project follows a structured flow from data generation to visualization:
 
 Data Generation:
@@ -43,8 +43,8 @@ Data Visualisation:
 The data stored in BigQuery is connected to Power BI, where various reports and dashboards are created to present key employee metrics. 
 
 
-**Insights:**
-Breakdown of employee distribution across various departments.
+**Insights:**<br>
+Breakdown of employee distribution across various departments: <br>
 ![Screenshot 2024-11-20 084905](https://github.com/user-attachments/assets/fe4a3665-b17f-4010-875b-d5a787ec891c)
 
 
