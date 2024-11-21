@@ -3,7 +3,7 @@ from faker import Faker
 import random
 from google.cloud import storage
 
-# Initialize Faker
+# Initialising Faker
 fake = Faker()
 
 # File to save
