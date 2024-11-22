@@ -24,7 +24,7 @@ dag = DAG('employee_data',
           catchup=False) 
 
 with dag:
-    # BashOperator to run a Python script (make sure the path is correct)
+    # BashOperator to run a Python script
     run_script_task = BashOperator(
         task_id='extract_data',
         bash_command='python/opt/airflow/dags/extract.py', 
